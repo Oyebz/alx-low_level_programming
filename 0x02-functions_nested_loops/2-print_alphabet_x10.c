@@ -13,7 +13,7 @@ void print_alpahbet_x10(void)
 	while (i < 10)
 	{
 		ch = 'a';
-		while (ch<= 'z')
+		while ( ch<= 'z')
 		{
 			_putchar(ch);
 			i++;
