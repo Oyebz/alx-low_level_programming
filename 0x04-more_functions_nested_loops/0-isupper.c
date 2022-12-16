@@ -2,12 +2,11 @@
 
 /**
  * main - checks for upperscase
- *
- * Return: Always 0
+ *@c: the character to be checked
+ * Return: 1 if is uppercase, 0 if otherwise
  */
 int _isupper(int c);
 {
-	int c;
 
 	if (c >= 'A' && c <= 'z')
 	{
