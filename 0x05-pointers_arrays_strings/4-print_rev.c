@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print rev - prits a string in reverse, followed by a new line
+ * print_rev - prits a string in reverse, followed by a new line
  * @s: string parameter in reverse
  *
  * Return: nothing
@@ -9,19 +9,11 @@
 
 void print_rev(char *s)
 {
-int vibe;
-int p;
-while (*s != '\0')
+int index;
 
-{
-vibe++;
-s++;
-}
-s--;
-for (p = vibe; p > 0; p--)
-{
-_putchar(*s);
-s--;
-}
+for (index = 0; s[index] != '\0'; ++index)
+
+for (--index; index >= 0; --index)
+_putchar(s[index]);
 _putchar('\n');
 }
