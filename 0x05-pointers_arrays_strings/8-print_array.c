@@ -4,6 +4,7 @@
  * print_array - a function that prints an element of an array
  * @a: array name
  * @n: is the number of element OF the array to be printed
+ *
  * Return: a and n inputs
  */
 
