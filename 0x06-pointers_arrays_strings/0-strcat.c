@@ -9,7 +9,8 @@
  */
 char *_strcat(char *dest, char *src)
 {
-int c, c2;
+int c;
+int c2;
 
 c = 0;
 
