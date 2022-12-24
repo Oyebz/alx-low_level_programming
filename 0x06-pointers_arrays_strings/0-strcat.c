@@ -13,13 +13,16 @@ int c, c2;
 
 c = 0;
 
-while (dest[c])
-c++;
-
-for (c2 = 0; src[c2] != 0; c2++)
+while (dest[c] != '\0')
 {
-dest[c++] = src[c2];
-c += 1;
+c++;
+}
+c2 = 0;
+while (src[c2] != '\0')
+{
+dest[c] = src[c2];
+c++;
+c2++;
 }
 dest[c] = '\0';
 return (dest);
